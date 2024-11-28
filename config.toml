@@ -2,8 +2,8 @@
 base_url = "https://diogotc.com"
 
 # The site title and description; used in feeds by default.
-title = "Diogo Correia"
-description = "Hey, I'm Diogo Torres Correia from Portugal. I love programming, running, taking photos and learning new things!"
+title = "David Søbæk Olsen"
+description = "Hey, I'm David Søbæk Olsen from Denmark. I love programming, running, taking photos and learning new things!"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -15,7 +15,7 @@ compile_sass = true
 build_search_index = true
 
 # The default author for pages
-author = "Diogo Correia"
+author = "David Søbæk Olsen"
 
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
@@ -48,42 +48,31 @@ external_links_no_referrer = true
 smart_punctuation = true
 
 [extra]
-long_title = "Diogo Torres Correia"
+long_title = "David Søbæk Olsen"
 favicon = "/assets/images/profile.jpg"
 
 [extra.footer]
-source_code = "https://github.com/diogotcorreia/dtc-website"
+source_code = "https://github.com/Nelsoon-ds"
 
 [[extra.footer.socials]]
 name = "mail"
 label = "Email"
-value = "me@diogotc.com"
-link = "mailto:me@diogotc.com"
+value = "me@david.s.olsen@hotmail.com"
+link = "mailto:david.s.olsen@hotmail.com"
 [[extra.footer.socials]]
 name = "discord"
 label = "Discord"
-value = "diogocorreia"
-link = "https://discord.com/users/218721510649626635"
+value = "Nelson"
+link = "https://discord.com/users/200336783341256704"
 [[extra.footer.socials]]
-name = "matrix"
-label = "Matrix"
-value = "@dtc:diogotc.com"
-link = "https://matrix.to/#/@dtc:diogotc.com"
-[[extra.footer.socials]]
-name = "mastodon"
-label = "Mastodon"
-value = "@dtc@masto.pt"
-link = "https://masto.pt/@dtc"
+name = "LinkedIn"
+label = "LinkedIn"
+value = "davidolsen108"
+link = "https://www.linkedin.com/in/davidolsen108/"
 
 [[extra.links]]
 name = "Home"
 path = "/"
 [[extra.links]]
-name = "Blog"
-path = "/blog"
-[[extra.links]]
-name = "Impossible List"
-path = "/impossiblelist"
-[[extra.links]]
 name = "CV"
-path = "https://cv.diogotc.com"
+path = ""
