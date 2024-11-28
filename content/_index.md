@@ -16,6 +16,11 @@ icon = "/assets/icons/github.svg"
 label = "Nelsoon-ds"
 link = "https://github.com/Nelsoon-ds"
 [[extra.socials]]
+name = "linkedin"
+icon = "/assets/icons/linkedin.svg"
+label = "Nelsoon-ds"
+link = "https://www.linkedin.com/in/davidolsen108/"
+[[extra.socials]]
 name = "discord"
 icon = "/assets/icons/discord.svg"
 label = "Nelson"
