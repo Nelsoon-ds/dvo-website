@@ -50,7 +50,7 @@ name = "Predicting Glassdoor ratings"
 icon = "/assets/images/glassdoor.png"
 link = "https://github.com/Nelsoon-ds/data-mining-project"
 calltoaction = "Visit Repo"
-background = "#0bab43"
+background = "#00af1b"
 color = "#fff"
 description = """
 The project employed machine learning techniques to predict Glassdoor review ratings based on the reviewer's profession. We utilized a large dataset from Kaggle, applying both unsupervised learning (k-Modes Clustering, Frequent Pattern Mining) and supervised learning (Logistic Regression Classifier).

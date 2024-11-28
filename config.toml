@@ -75,4 +75,4 @@ name = "Home"
 path = "/"
 [[extra.links]]
 name = "CV"
-path = ""
+path = "/cv/"
