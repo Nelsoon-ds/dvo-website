@@ -18,7 +18,7 @@ link = "https://github.com/Nelsoon-ds"
 [[extra.socials]]
 name = "linkedin"
 icon = "/assets/icons/linkedin.svg"
-label = "Nelsoon-ds"
+label = "David Olsen"
 link = "https://www.linkedin.com/in/davidolsen108/"
 [[extra.socials]]
 name = "discord"
