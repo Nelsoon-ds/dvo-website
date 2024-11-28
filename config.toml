@@ -57,7 +57,7 @@ source_code = "https://github.com/Nelsoon-ds"
 [[extra.footer.socials]]
 name = "mail"
 label = "Email"
-value = "me@david.s.olsen@hotmail.com"
+value = "david.s.olsen@hotmail.com"
 link = "mailto:david.s.olsen@hotmail.com"
 [[extra.footer.socials]]
 name = "discord"
