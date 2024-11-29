@@ -1,21 +1,16 @@
-{% extends "base.html" %}
-{%- import 'macros/particles.html' as macros_particles %}
-
-{% block content %}
-{% block stylesheets %}
-  {{ super() }}
-  <link rel="stylesheet" href="{{ get_url(path='/cv.css', trailing_slash=false, cachebust=true) }}" />
+{% extends "base.html" %} {%- import 'macros/particles.html' as macros_particles %} {% block content
+%} {% block stylesheets %} {{ super() }}
+<link rel="stylesheet" href="{{ get_url(path='/cv.css', trailing_slash=false, cachebust=true) }}" />
 {% endblock stylesheets %}
 
 <main class="cv-page">
   <!-- Particles background -->
   {{- macros_particles::particles_dom(style="position: fixed; inset: 0; z-index: -10;") }}
-  
+
   <div class="container">
     <!-- Single Card for the entire CV -->
     <div class="cv-card">
       <div class="cv-card-content">
-        
         <!-- Header Section -->
         <header class="section-title">
           <h1>{{ page.title }}</h1>
@@ -25,46 +20,57 @@
         <section class="section about-me">
           <h3>About Me</h3>
           <p>
-            As a Software Engineer at BEC Financial Technologies, I work on digital banking solutions,
-            developing a desktop application with an Angular front-end, Java back-end, and integrating
-            with mainframe tables. My focus is on creating efficient, scalable solutions for the Danish
-            financial sector, while continuously enhancing processes like KYC and anti-money laundering.
-            Known for my collaborative approach, I foster a positive and innovative work environment. My
-            curiosity and thoughtful questions contribute to team discussions, helping to spark valuable
-            insights and strengthen our shared commitment to excellence.
+            As a Software Engineer, I specialize in crafting digital banking solutions, where I
+            bring together modern technologies to create reliable and user-friendly applications.
+            Currently, I'm working on a digital banking application with an Angular front-end, a
+            Java back-end, and integrating mainframe APIs to deliver business value to bank users. I thrive
+            on building systems that not only work efficiently but also feel intuitive for users.
+            Collaborating across teams, I enjoy tackling challenges head-on, taking initiative and ensuring every piece of
+            the puzzle fits together. Looking ahead, I aspire to grow as a full-stack
+            software developer, blending creativity with technical expertise to bring ideas to life.
           </p>
         </section>
         <!-- Skills Section -->
         <section class="section skills">
           <h3>Skills</h3>
           <ul>
-            <li><strong>Programming:</strong> JavaScript, Angular, React, NodeJS, HTML/CSS, Java, Python</li>
+            <li>
+              <strong>Programming:</strong> JavaScript, Typescript, Angular, React, NodeJS, HTML/CSS, Java,
+              Python
+            </li>
             <li><strong>Operating Systems:</strong> Linux, Windows, MacOS</li>
-            <li><strong>Tools:</strong> Git, Jest, Jenkins</li>
-            <li><strong>Languages:</strong> Danish (Native), English (Native)</li>
+            <li><strong>Tools:</strong> Git, Jest, Jenkins(CI/CD)</li>
+            <li><strong>Languages:</strong> Danish (Native), English (Proffesional)</li>
           </ul>
         </section>
         <!-- Professional Experience Section -->
         <section class="section experience">
-            <h3>Professional Experience</h3>
-            <p><strong>2024 Feb - Current:</strong> BEC Financial Technologies, Roskilde, Denmark - Software Engineer</p>
-            <p><strong>August 2023 - Jan 2024:</strong> BEC Financial Technologies, Roskilde, Denmark - Business Analyst</p>
-          </section>
+          <h3>Professional Experience</h3>
+          <p>
+            <strong>2024 Feb - Current:</strong> BEC Financial Technologies, Roskilde, Denmark -
+            Software Engineer
+          </p>
+          <p>
+            <strong>August 2023 - Jan 2024:</strong> BEC Financial Technologies, Roskilde, Denmark -
+            Business Analyst
+          </p>
+        </section>
         <!-- Education Section -->
         <section class="section education">
           <h3>Education</h3>
           <p><strong>2018 - 2021:</strong> Aalborg University, Denmark - Technoanthropology</p>
-          <p><strong>2021 - 2023:</strong> IT University Copenhagen, Denmark - Digital Innovation & Management (Digital Economics)</p>
-          <p>ITU Academic Council member (2022/2023), AAU Academic Council (2019/2020), and more.</p>
+          <p>
+            <strong>2021 - 2023:</strong> IT University Copenhagen, Denmark - Digital Innovation &
+            Management (Digital Economics)
+          </p>
+          <p>
+            ITU Academic Council member (2022/2023), AAU Academic Council (2019/2020), and more.
+          </p>
         </section>
       </div>
     </div>
   </div>
 </main>
 
-{% endblock content %}
-
-{% block scripts %}
-{{ super() }}
-{{- macros_particles::particles_script() }}
+{% endblock content %} {% block scripts %} {{ super() }} {{- macros_particles::particles_script() }}
 {% endblock scripts %}
