@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://dvo-website.vercel.app/"
+base_url = "https://davidolsen.dk/"
 
 # The site title and description; used in feeds by default.
 title = "David Søbæk Olsen"
