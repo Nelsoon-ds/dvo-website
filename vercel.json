@@ -1,6 +1,11 @@
 {
-    "installCommand": "curl -sSL https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz && tar -xzvf zola.tar.gz",
-    "buildCommand": "./zola build",
-    "outputDirectory": "public"
-  }
-  
+  "installCommand": "curl -sSL https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz && tar -xzvf zola.tar.gz",
+  "buildCommand": "./zola build",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/cv",
+      "destination": "https://dvo-website.vercel.app/cv"
+    }
+  ]
+}
