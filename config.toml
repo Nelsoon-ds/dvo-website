@@ -52,7 +52,7 @@ long_title = "David Søbæk Olsen"
 favicon = "/assets/images/profile.jpg"
 
 [extra.footer]
-source_code = "https://github.com/Nelsoon-ds"
+source_code = "https://github.com/Nelsoon-ds/dvo-website"
 
 [[extra.footer.socials]]
 name = "mail"
