@@ -70,7 +70,7 @@ background = "#e91425"
 color = "#fff"
 description = """
 Winner of the 2022 European Blockchain Center Hackathon. The hackathon is a week long event with 12 teams competing to build a PoC solution. 
-We built a Ethereum-based escrow system that only allowed withdrawals of accounts when NGO commitments had been made.
+We built a Ethereum-based escrow script that only allowed withdrawals of accounts when the NGOs committed goals had been documented on the ledger.
 """
 
 [[extra.top_projects]]

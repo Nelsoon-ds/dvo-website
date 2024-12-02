@@ -1,38 +1,44 @@
 {%- macro particles_script() %}
 <script>
-  function setupParticlesBackground() {
-    tsParticles.load("tsparticles", {
-      particles: {
-        links: {
-          enable: true,
-          distance: 100,
-          opacity: 0.5,
-        },
-        number: {
-          density: {
+    function setupParticlesBackground() {
+      tsParticles.load('tsparticles', {
+        particles: {
+          links: {
             enable: true,
-            value_area: 800,
+            distance: 100,
+            opacity: 0.5,
           },
-          value: 55,
+          number: {
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+            value: 50,
+          },
+
+          size: {
+            value: 4,
+          },
+          move: {
+            direction: 'none',
+            enable: true,
+            warp: true,
+            outMode: 'bounce',
+            random: false,
+            speed: 2.5,
+            straight: false,
+            path: {
+              enable: true,
+              generator: 'perlinNoise',
+            },
+          },
+          opacity: {
+            value: 1,
+          },
         },
-        size: {
-          value: 3,
-        },
-        move: {
-          direction: 'none',
-          enable: true,
-          outMode: 'bounce',
-          random: false,
-          speed: 2,
-          straight: false,
-        },
-        opacity: {
-          value: 0.5,
-        },
-      },
-      retina_detect: true,
-    });
-  }
+        retina_detect: true,
+      });
+    }
 </script>
 
 <script
@@ -43,8 +49,6 @@
   defer
   onload="setupParticlesBackground()"
 ></script>
-{%- endmacro %}
-
-{%- macro particles_dom( style ) %}
+{%- endmacro %} {%- macro particles_dom( style ) %}
 <div id="tsparticles" style="{{ style | default(value='') }}"></div>
 {%- endmacro %}
