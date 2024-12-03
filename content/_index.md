@@ -17,7 +17,7 @@ label = "Nelsoon-ds"
 link = "https://github.com/Nelsoon-ds"
 [[extra.socials]]
 name = "linkedin"
-icon = "/assets/icons/linkedin.svg"
+icon = "/assets/icons/linkedin2.svg"
 label = "David Olsen"
 link = "https://www.linkedin.com/in/davidolsen108/"
 [[extra.socials]]
