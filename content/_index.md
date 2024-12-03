@@ -87,13 +87,14 @@ Volunteered in 2023/2024 for on-site support and core deployment at Roskilde Fes
 
 [[extra.top_projects]]
 name = "Etch-a-sketch!"
-icon = "/assets/icons/resumos-leic.svg"
+icon = "/assets/icons/painting.svg"
 link = "https://github.com/Nelsoon-ds/Etch-a-Sketch"
-calltoaction = "Visit Website"
+calltoaction = "Visit repo"
 background = "#6904a0"
 color = "#fff"
 description = """
-A short project to test out some interactive vanilla JS 🚀 Live Demo: [Try it here!](https://nelsoon-ds.github.io/Etch-a-Sketch/)
+A short project to test out some interactive vanilla JS. 
+Live Demo: [Try it here!](https://nelsoon-ds.github.io/Etch-a-Sketch/)
 """
 
 ############
