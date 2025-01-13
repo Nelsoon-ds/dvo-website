@@ -224,6 +224,7 @@
 }
 .splash .socials svg {
   width: 24px;
+  height: auto;
   fill: #fff;
 }
 .section {
